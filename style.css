@@ -1,0 +1,42 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+body {
+  background: #a596a8;
+}
+
+* {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+header h1 {
+  font-style: italic;
+}
+
+main {
+  color: #45083c;
+  position: absolute;
+  width: 100%;
+  padding: 120px 0px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+header {
+  background: rgba(100, 97, 101, 0.85);
+  grid-column: 2 / span 5;
+  font-size: 40px;
+  padding: 32px;
+  margin-bottom: 350px;
+}
+
+section {
+  grid-column: 2 / 8;
+  padding: 16px;
+  background: rgba(148, 133, 141, 0.616);
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 350px;
+}
